@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'chivo';
+  src: url('/fonts/ChivoMono-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: 'chivo-italic';
+  src: url('/fonts/ChivoMono-Italic-VariableFont_wght.ttf');
+}
+
+:root {
+  --font-primary: 'chivo', sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
+
+@theme {
+  --color-coalblack: #333333;
+  --color-offwhite: #F7F7F5;
+  --color-beiges: #F7EFE5;
+  --color-darkblue: #2C537C;
+  --color-lightblue: #517293;
+  --color-grei: #A0A0A0;
+  --color-redd: #9E5046;
+  
+  --font-chivo: "Chivo", "sans-serif";
+}
