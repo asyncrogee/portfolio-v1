@@ -31,7 +31,7 @@ const LastFmRecentTrack = () => {
               </p>
               <p className="text-grei text-sm">{track.artist["#text"]}</p>
               <a className="text-grei text-xs" href={track.url} target="_blank" rel="noopener noreferrer">
-                Listen on Last.fm
+                Listen on Spotify
               </a>
             </div>
           </div>
