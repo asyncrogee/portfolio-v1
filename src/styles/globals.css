@@ -10,6 +10,21 @@
   src: url('/fonts/ChivoMono-Italic-VariableFont_wght.ttf');
 }
 
+@font-face {
+  font-family: 'megren';
+  src: url('/fonts/megren-demo-regular.ttf');
+}
+
+@font-face {
+  font-family: 'halout';
+  src: url('/fonts/Halenoir-BlackOutline.otf');
+}
+
+@font-face {
+  font-family: 'halenoir';
+  src: url('/fonts/Halenoir-Black.otf');
+}
+
 :root {
   --font-primary: 'chivo', sans-serif;
 }
@@ -28,4 +43,7 @@ html {
   --color-redd: #9E5046;
   
   --font-chivo: "Chivo", "sans-serif";
+  --font.megren: "Megren", "sans-serif";
+  --font.halenoir: "Halenoir", "sans-serif";
+  --font.halout: "Halout", "sans-serif";
 }

@@ -68,17 +68,17 @@ export default function Nav() {
                 <div className="flex justify-between">
                     <a className="flex p-1 gap-1 bg-darkblue/20 border-darkblue border-[0.3px] rounded items-center" href="https://www.linkedin.com/in/jrogeet/" target="_blank">
                         <img className="h-4" src="/images/socials/linkedin.webp" alt="Icon"/>
-                        <p className="text-xs">LinkedIn</p>
+                        <p className="text-xs text-darkblue">LinkedIn</p>
                     </a>
 
                     <a className="flex p-1 gap-1 bg-coalblack/20 border-coalblack border-[0.3px] rounded items-center" href="https://github.com/jrogeet" target="_blank">
                         <img className="h-4" src="/images/socials/github.svg" alt="Icon"/>
-                        <p className="text-xs">Github</p>
+                        <p className="text-xs text-coalblack">Github</p>
                     </a>
 
                     <a className="flex p-1 gap-1 bg-redd/20 border-redd border-[0.3px] rounded items-center" href="https://www.instagram.com/a.gee.i/" target="_blank">
                         <img className="h-4" src="/images/socials/instagram.webp" alt="Icon"/>
-                        <p className="text-xs">Instagram</p>
+                        <p className="text-xs text-redd">Instagram</p>
                     </a>
                 </div>
 
