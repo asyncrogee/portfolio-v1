@@ -9,7 +9,7 @@ export default function Hero() {
                 <div className="flex flex-col w-[32.75rem] gap-7">
                     <div className="flex flex-col gap-3 text-sm">
                         <p>a passionate creator who loves bringing <span className="text-darkblue">ideas</span> to life, whether through clever designs, engaging interfaces, or thoughtful solutions.</p>
-                        <p>My journey is fueled by <span className="text-darkblue">curiosity</span>, <span className="text-darkblue">collaboration</span>, and a sprinkle of <span className="text-darkblue">fun</span>, as I aim to inspire and leave a spark of creativity wherever I go. </p>
+                        <p>My journey is fueled by <span className="text-darkblue">curiosity</span>, <span className="text-darkblue">creativity</span>, and a sprinkle of <span className="text-darkblue">fun</span>, as I aim to inspire and leave a spark of creativity wherever I go. </p>
                         <p>Let’s create something amazing together!</p>
                     </div>
 

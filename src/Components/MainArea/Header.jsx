@@ -1,9 +1,7 @@
 import { useState, useEffect } from "react";
 
 export default function Header() {
-
     
-
     return (
         <div className="flex p-5 max-h-14 bg-offwhite rounded-xl w-full justify-between items-center shadow-inner shadow-black/25">
             <button className="px-10 py-3 rounded-lg text-xs text-darkblue bg-darkblue/15 border-darkblue border">View Resume</button>

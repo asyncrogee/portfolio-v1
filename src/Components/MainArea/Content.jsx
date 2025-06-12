@@ -1,5 +1,6 @@
 import Hero from './Sections/Hero';
 import Creations from './Sections/Creations';
+import Certifications from './Sections/Certifications';
 
 export default function Content() {
     return (
@@ -7,6 +8,7 @@ export default function Content() {
             <div className="w-full flex flex-col items-center gap-10">
                 <Hero />
                 <Creations />
+                <Certifications />
             </div>
         </div>
 

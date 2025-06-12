@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: "/jrogeet.github.io",
+  base: "/",
 })
