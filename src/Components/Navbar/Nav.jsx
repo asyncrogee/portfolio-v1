@@ -121,7 +121,7 @@ export default function Nav() {
         </div>
 
         <div className="flex flex-col gap-2">
-          <GithubEvents username="jrogeet" />
+          <GithubEvents username="asyncrogee" />
           <LastFmRecentTrack />
         </div>
       </div>
