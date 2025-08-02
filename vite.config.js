@@ -8,5 +8,20 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  
   base: "/",
+
+  resolve: {
+    alias: {
+      '@': '/src',
+    },
+  },
+
+  server: {
+    host: '0.0.0.0', // Allows external connections (important for Docker)
+    port: 5173,
+    watch: {
+      usePolling: true, // Needed for hot reload in Docker
+    }
+  },
 })
