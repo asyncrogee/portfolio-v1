@@ -1,6 +1,9 @@
+name: portfolio-v1
 services:
   portfolio:
     build: .
+    container_name: portfolio-v1
+    image: portfolio-v1
     ports:
       - "5173:5173"  # Vite's default port
     volumes:
