@@ -9,6 +9,7 @@ export default function Creations() {
                 <img src="/images/meme/TT.jpg" className="h-40"/>
                 <img src="/images/meme/WIP.jpg" className="h-40"/>
             </div> */}
+            
             <div className="h-[29.875rem] flex justify-center gap-2.5">
                 {/* PREVIEW */}
                 <div className="border border-coalblack h-full p-2.5">
